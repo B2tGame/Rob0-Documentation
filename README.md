@@ -35,7 +35,7 @@ There is no contextual widget for now, but it's coming...
 
 ## Internationalization
 
-**NOTE** : Internationalization isn't implemented yet. This paragraph normalize the format od files for multiple language for the future i18n features of Rob0.
+**NOTE** : Internationalization isn't implemented yet. This paragraph normalize the format of files for multiple language for the future i18n features of Rob0.
 
 Internationalization is handled by adding an [IETF language tag](https://en.wikipedia.org/wiki/IETF_language_tag) as an extention prefix.
 
