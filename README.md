@@ -24,7 +24,7 @@ Mapped to https://console.rob0.io/doc/unity/tutorials
 To add more interactivity and context to the documentation you can add a contextual widget to your pages. These widgets are inserted with double curly-braces syntax.
 
 ```
-If you whant to add a new version to {{ProjectName}} you can click on the button
+If you want to add a new version to {{ProjectName}} you can click on the button
 
 Here, "{{ProjectName}}" is replaced by the "ProjectName" contextual widget
 ```
