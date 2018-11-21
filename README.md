@@ -31,7 +31,7 @@ Here, "{{ProjectName}}" is replaced by the "ProjectName" contextual widget
 
 ### Available widgets
 
-There is no contextual widget for now, but it's coming...
+* **ApiKey** Show the Api key of the current project in a card
 
 ## Internationalization
 
