@@ -4,7 +4,10 @@ Welcome to your Dashboard, here’s all the info you need to be able to link you
 
 ## System requirements
 
-The Rob0 SDK is still under development, and we’re working hard to add support to all platforms, although it may very well already work on platforms not listed below. It has currently being tested using the following configurations: • Unity 2017 or above • iOS, Android and Standalone (PC or macOS)
+The Rob0 SDK is still under development, and we’re working hard to add support to all platforms, although it may very well already work on platforms not listed below. It has currently being tested using the following configurations:
+
+* Unity 2017 or above 
+* iOS, Android and Standalone (PC or macOS)
 
 ### Recommended settings
 
@@ -48,7 +51,7 @@ To start using Rob0, you have to create a [free account](http://console.rob0.io/
 
 ![Settings](./img/getting-started/settings.png)
 
-This is your Rob0 App Key:
+This is your Rob0 Api Key:
 
 {{ApiKey}}
 
