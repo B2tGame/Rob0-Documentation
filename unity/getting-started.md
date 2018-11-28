@@ -39,7 +39,7 @@ To start using Rob0, you have to create a [free account](http://console.rob0.io/
 
 1. Download the latest Rob0 `.unitypackage` from the Downloads page
 2. In your Unity project go to **Assets -> Import Package -> Custom Package…**
-3. Select `.rob0-sdk-unity.unitypackage` and import all assets
+3. Select `rob0-sdk-unity.unitypackage` and import all assets
 
 ![Import](./img/getting-started/import.png)
 
@@ -57,16 +57,12 @@ This is your Rob0 Api Key:
 
 ## Start using Rob0
 
-At this point, you should be able to start using Rob0. Play with your app a little bit and minimize or close it. A snapshot of the last minute of use will be sent to the Rob0 Console (this might take a minute or two).
+At this point, you should be able to start using Rob0. Play with your app a little bit and minimize it. A snapshot of the last minute of use will be sent to the Rob0 Console (this might take a minute or two).
 
 _Note: This also works in the editor, but in order to trigger the upload you need to switch to a different application while Unity is still running your project._
 
 ## Known issues
 
-In order for the recording to work efficiently, all UI Canvas need to render to a camera. In order to capture screenshots without blocking the main thread it’s necessary to use the function:
-
-```
-Rendering.AsyncGPUReadback
-```
-
-Which is only available in Unity 2018.1 and above for all devices except Metal and OpenGL. Metal should have been included in Unity 2018.2 although it looks like it might only make it in 2018.3. [https://forum.unity.com/threads/graphics-asynchronous-gpu-readback-api.529901/](https://forum.unity.com/threads/graphics-asynchronous-gpu-readback-api.529901/)
+* In order for the recording to work, all UI Canvas need to render to a camera.
+* In order to capture screenshots without impacting performance we use `Rendering.AsyncGPUReadback` which is only available in Unity 2018.1 for Android using the Vulkan graphics API and Unity 2018.3 for iOS. If you're unable to use the latest versions of Unity you may experience a slight performance impact on older devices.
+* Since iOS interrupts all web requests once the app is minimized, you'll need to manually trigger an upload using `Rob0.Rob0Controller.SendCapsule("your-custom-event-name");`. We're currently working on a solution that would use background tasks.
