@@ -37,7 +37,7 @@ To start using Rob0, you have to create a [free account](http://console.rob0.io/
 
 ### Configure Rob0 Editor Plugin
 
-1. [Download the rob0 Unity SDK](https://s3.amazonaws.com/downloads.rob0.io/rob0-sdk-unity.unitypackage)
+1. [Download the rob0 Unity SDK](https://s3.amazonaws.com/downloads.rob0.io/rob0-sdk-unity.unitypackage) ([Release Notes](./release-notes.md))
 2. In your Unity project go to **Assets -> Import Package -> Custom Package…**
 3. Select `rob0-sdk-unity.unitypackage` and import all assets
 
