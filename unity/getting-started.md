@@ -80,7 +80,7 @@ _Note: This also works in the editor, but in order to trigger the upload you nee
 
 **Bug Fixes**
 - Don't reset settings when upgrading SDK
-- Default to 30 fps if `Application.targetFrameRate` is not set
+- Default recording to 30 fps if `Application.targetFrameRate` is not set
 - Clear cache when settings change to not save capsule on disk
 
 ### Version 0.2.2 - 2019/02/18
