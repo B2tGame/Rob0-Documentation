@@ -71,7 +71,7 @@ Note that capsules are only sent if the device is connected to Wifi to avoid con
 
 ## Release notes
 
-### Version 0.5.0 - 2019/11/16
+### Version 0.5.0 - 2019/11/28
 
 **Features**
 - Streaming support to record full gameplay sessions
