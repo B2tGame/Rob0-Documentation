@@ -81,9 +81,11 @@ Note that capsules are only sent if the device is connected to Wifi to avoid con
 - Use microseconds to define event time
 - Better session events synchronization
 - Improved API security
+- Skip capsule upload if no inputs detected
 
 **Bug Fixes**
 - Fix ftux events in live mode
+- Fix frame skipping issue that caused faster video playback in console
 
 ### Version 0.4.4 - 2019/06/12
 
