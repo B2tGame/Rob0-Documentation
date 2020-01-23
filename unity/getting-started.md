@@ -71,6 +71,25 @@ Note that capsules are only sent if the device is connected to Wifi to avoid con
 
 ## Release notes
 
+### Version 0.6.0 - 2020/01/22
+
+**Features**
+- GDPR and COPPA compliancy: opt-out and personal data request
+- Custom data can be attached on recordings per frame
+- Initial implementation of XR input device capture
+- Include controller axis input in recordings
+- Measure and record application FPS
+- Add system event when scenes are loaded
+- Timed events for tracking and visualizing events that span over time
+
+**Improvements**
+- Disable all analytics on dev devices that aren't linked to the project
+
+### Version 0.5.1 - 2020/01/02
+
+**Improvements**
+- Remove ftux prefix on event names, they will be identified and tagged on the server
+
 ### Version 0.5.0 - 2019/11/28
 
 **Features**
