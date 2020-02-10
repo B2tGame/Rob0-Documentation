@@ -71,6 +71,18 @@ Note that capsules are only sent if the device is connected to Wifi to avoid con
 
 ## Release notes
 
+### Version 0.6.2 - 2020/02/10
+
+**Improvements**
+- Always send capsules for test devices, even if not on WiFi or if high CPU usage
+- If SDK stops due to high CPU usage, an event is sent
+- When pausing recording, a timed event is sent
+
+### Version 0.6.1 - 2020/02/05
+
+**Improvements**
+- Add VR controllers
+
 ### Version 0.6.0 - 2020/01/22
 
 **Features**
